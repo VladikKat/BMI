@@ -6,7 +6,7 @@
                 BmiService service = new BmiService();
                 int weightinkg = 98;
                 double heigtinmeters = 1.87;
-                int index = service.calculate; // должно получиться 500
+                double index = service.calculate (weightinkg, heigtinmeters); // должно получиться 500
                 System.out.println(index);
             }
         }
